@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="181.0" prefWidth="459.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AnwendungsController">
+   <children>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="34.0" prefHeight="43.0" prefWidth="421.0" text="Sie koennen das System nun verwenden">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button id="btn_cancel" fx:id="button" layoutX="32.0" layoutY="121.0" mnemonicParsing="false" onAction="#abbrechen" prefHeight="43.0" prefWidth="95.0" text="Abbrechen" />
+   </children>
+</AnchorPane>
